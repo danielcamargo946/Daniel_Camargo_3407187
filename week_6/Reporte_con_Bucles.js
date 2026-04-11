@@ -1,6 +1,6 @@
 // ============================================
 // PROYECTO SEMANA 06: Reporte con Bucles
-// Dominio: Kraken / Criptoactivos (En Español)
+// Dominio: Kraken / Criptoactivos 
 // ============================================
 
 // ============================================
@@ -30,8 +30,7 @@ let numeroLinea = 0;
 
 for (const cripto of portafolioCripto) {
   numeroLinea++;
-  // Formato: 1. Bitcoin — [Moneda] — Precio (USD): $64,200.5
-  console.log(`${numeroLinea}. ${cripto.nombre} — [${cripto.categoria}] — ${etiquetaValor}: $${cripto.cripto.toLocaleString()}`);
+  console.log(`${numeroLinea}. ${cripto.nombre} — [${cripto.categoria}] — ${etiquetaValor}: $${cripto.valor.toLocaleString()}`);
 }
 
 console.log("");
